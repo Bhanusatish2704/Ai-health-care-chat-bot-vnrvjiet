@@ -1,28 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fp.css">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bubblegum+Sans&family=Cherry+Bomb+One&family=Chivo:wght@300;400&family=Enriqueta&family=Lilita+One&family=Teko:wght@600&display=swap" rel="stylesheet">
-    <title>E-Health@VNRVJIET</title>
-</head>
-<body style="background-image: url('./picc.jpg');width: 36rem; background-repeat: no-repeat; background-size: 100%; ">
-    <img src="./logoo.jpg" style="width: 50%;" alt="">
-    <h1 style="margin-left: 15rem; margin-top: 4rem; width: 40rem;">Welcome To E-Health VNRVJIET!!</h1>
-    <h2 style="margin-left: 15rem;width: 40rem;"> Your Personal Health Guardian</h2>
-    <h4 style="margin-left: 15rem;width: 40rem; font-size: 1.7rem; width: 50rem;"> Predict, Prevent, and Prioritize your health journey...</h4>
+AI Healthcare Chatbot  
 
-    <script type="text/javascript">
-        (function(d, m){
-            var kommunicateSettings = 
-                {"appId":"276d398f6f1e6b56fb29269f767c98331","popupWidget":true,"automaticChatOpenOnNavigation":true};
-            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-            window.kommunicate = m; m._globals = kommunicateSettings;
-        })(document, window.kommunicate || {});
-    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-    </script>
-</body>
-</html>
+Overview  
+The AI Healthcare Chatbot is a web-based chatbot designed to assist users with symptom analysis, health tips, and basic medical guidance. Built using HTML, CSS, and JavaScript, this chatbot provides an interactive and user-friendly experience for healthcare support.  
+
+Features  
+- Symptom Checker – Get possible causes based on user inputs.  
+- Health Tips & Advice – Provides general wellness guidance.  
+- Basic Appointment Booking – Allows users to schedule consultations.  
+- Medication Reminders – Simple alert system for medicine intake.  
+- Interactive Chat Interface – Smooth UI with a conversational flow.  
+- Responsive Design – Works on desktops, tablets, and mobile devices.  
+
+Technologies Used  
+- Frontend: HTML, CSS, JavaScript  
+- Chat Logic: JavaScript-based decision tree (No backend required)  
+
+Installation & Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/ai-healthcare-chatbot.git  
+   cd ai-healthcare-chatbot  
+   ```  
+2. Open `index.html` in a browser  
+3. Start chatting with the bot!  
+Future Improvements  
+- AI-powered responses using TensorFlow.js  
+- Voice-enabled chat support  
+- Dark mode & UI enhancements  
+
+Contributing  
+We welcome contributions! Feel free to fork the repository and submit pull requests.  
+
+License  
+This project is licensed under the MIT License.  
+
+Would you like any additional changes?
